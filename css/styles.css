@@ -73,6 +73,14 @@
   padding-top: 5vh;
 }
 
+.expand {
+  transition: transform .2s;
+}
+
+.expand:hover {
+  transform: scale(1.03);
+}
+
 .modal {
   display: none; 
   position: fixed; 
@@ -90,10 +98,12 @@
 .modal-content {
   background-color: #fefefe;
   margin: auto;
+  margin-top: -5rem;
+  margin-bottom: 10rem;
   padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-bottom: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   border: 1px solid #888;
   width: 50vw;
 }
@@ -136,6 +146,38 @@
   font-family: brandon-grotesque-light;
   color: rgb(12,13,13);
   font-size: 2rem;
+}
+
+.black-sub {
+  font-family: brandon-grotesque-light;
+  color: rgb(12,13,13);
+  font-size: 1.3rem;
+}
+
+.black-body {
+  font-family: montserrat-light;
+  color: rgb(219, 219, 219);
+  font-size: 1.1rem;
+}
+
+.tag {
+  background-color: transparent;
+  border: 1px solid rgb(215,125,127);
+  color: rgb(215,125,127);
+  border-radius: 5px;
+  font-family: montserrat-light;
+  font-size: 1rem;
+}
+
+.link {
+  background-color: rgb(12,13,13);
+  border: none;
+  color: #fefefe;
+  border-radius: 10px;
+  font-family: brandon-grotesque-light;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  width: fit-content;
 }
 
 body {
