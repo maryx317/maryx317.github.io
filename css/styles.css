@@ -1,6 +1,6 @@
 .title {
   padding-top: 10vh;
-  padding-bottom: 5vh;
+  padding-bottom: 10vh;
   font-family: brandon-grotesque;
   font-size: 3rem;
   text-align: center;
@@ -19,31 +19,19 @@
   color: rgb(219, 219, 219);
 }
 
-#img-dark {
-  /* opacity: 0.8; */
+#home-img-dark {
   filter: brightness(70%);
   min-width: 100vw;
   max-height:  100vh;
-  /* max-height: 110vh; */
   display: flex;
   justify-content: center;
   overflow: hidden;
 }
 
-.img-container {
+.home-img-container {
   margin: 0;
   position: relative;
   text-align: center;
-  color: white;
-}
-
-.black-container {
-  margin: 0;
-  padding-left: 15vw;
-  padding-right: 20vw;
-  padding-bottom: 10vh;
-  background-color: black;
-  width: 100%;
 }
 
 .centered {
@@ -60,16 +48,79 @@
   transform: translate(-50%, 600%);
 }
 
-h1 {
-  font-size: 200%;
+#about-propic {
+  width: 20vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about-body {
+  font-family: montserrat-light;
+  color: rgb(219, 219, 219);
+  font-size: 1.2rem;
+}
+
+#about-emph {
+  font-family: montserrat-bold;
+  color: rgb(219, 219, 219);
+  font-size: 1.2rem;
+}
+
+.about-black-container {
+  margin: 0;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-bottom: 20vh;
+  background-color: rgb(12,13,13);
+  width: 100%;
+}
+
+.skills-container {
+  margin: 0;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-bottom: 20vh;
+  padding-top: 5vh;
+}
+
+#skills-subheader {
+  font-family: brandon-grotesque-light;
+  color: rgb(12,13,13);
+  font-size: 2rem;
+}
+
+#skills-body {
+  font-family: montserrat-light;
+  color: rgb(12,13,13);
+  font-size: 1.2rem;
+}
+
+body {
+  background-color: rgb(219, 219, 219);
 }
 
 @font-face {
   font-family: brandon-grotesque;
-  src: url(../fonts/Rubik-Medium.ttf);
+  src: url(../fonts/Rubik/Rubik-Medium.ttf);
 }
 
 @font-face {
   font-family: brandon-grotesque-bold;
-  src: url(../fonts/Rubik-SemiBold.ttf);
+  src: url(../fonts/Rubik/Rubik-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: brandon-grotesque-light;
+  src: url(../fonts/Rubik/Rubik-Light.ttf);
+}
+
+@font-face {
+  font-family: montserrat-light;
+  src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: montserrat-bold;
+  src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
 }
