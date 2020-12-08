@@ -1,0 +1,75 @@
+.title {
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+  font-family: brandon-grotesque;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#home-title {
+  font-family: brandon-grotesque-bold;
+  font-size: 11vw;
+  color: rgb(219, 219, 219);
+  /* opacity: 0.85; */
+}
+
+#home-subtitle {
+  font-family: brandon-grotesque;
+  font-size: 2.95vw;
+  color: rgb(219, 219, 219);
+}
+
+#img-dark {
+  /* opacity: 0.8; */
+  filter: brightness(70%);
+  min-width: 100vw;
+  max-height:  100vh;
+  /* max-height: 110vh; */
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.img-container {
+  margin: 0;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.black-container {
+  margin: 0;
+  padding-left: 15vw;
+  padding-right: 20vw;
+  padding-bottom: 10vh;
+  background-color: black;
+  width: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+}
+
+.bottom-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 600%);
+}
+
+h1 {
+  font-size: 200%;
+}
+
+@font-face {
+  font-family: brandon-grotesque;
+  src: url(../fonts/Rubik-Medium.ttf);
+}
+
+@font-face {
+  font-family: brandon-grotesque-bold;
+  src: url(../fonts/Rubik-SemiBold.ttf);
+}
