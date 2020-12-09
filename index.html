@@ -6,515 +6,552 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <title>Mary Xu | Developer</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top" style="font-family: brandon-grotesque-light;">
+      <div class="navbar-collapse collapse justify-content-between">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="#home" class="nav-link active">MARY XU &nbsp|&nbsp DEVELOPING EXPERIENCES</a></li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <!-- Home -->
-    <div class="home-img-container">
-      <img class="home-img-dark" src="images/home.png" alt="Cactus city (drawing by me)">
-      <div class="centered">
-        <div class="home-title">MARY &nbspXU</div>
-        <div class="home-subtitle">Developer &nbsp| &nbspDesigner &nbsp| &nbspArtist</div>
+    <section id="home">
+      <div class="home-img-container">
+        <img class="home-img-dark" src="images/home.png" alt="Cactus city (drawing by me)">
+        <div class="centered">
+          <div class="home-title">MARY &nbspXU</div>
+          <div class="home-subtitle">Developer &nbsp| &nbspDesigner &nbsp| &nbspArtist</div>
+        </div>
+        <div class="bottom-centered">
+          <a href="#about">
+            <div class="simple-down">
+              <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-chevron-down" fill="rgb(219, 219, 219)" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+              </svg>
+            </div>
+          </a>
+        </div>
       </div>
-      <div class="bottom-centered">
-        <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-chevron-down" fill="rgb(219, 219, 219)" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-        </svg>
-      </div>
-    </div>
+    </section>
 
     <!-- About -->
-    <div class="about-black-container">
-      <div class="title" style="color: rgb(219, 219, 219);;">Hi there!</div>
-      <div class="row">
-        <div class="col-5">
-          <img src="images/propic.png" alt="Mary profile picture" style="width: 17vw;">
-        </div>
-        <div class="col-7">
-          <div class="white-body">
-            My name is Mary Xu, and I'm a developer with a passion for sharing experiences 
-            through my work. I'm currently a 4th year Computer Science major at the Georgia Institute of Technology with concentrations
-            in Media and Intelligence.
+    <section id="about">
+      <div class="about-black-container">
+        <div class="title" style="color: rgb(219, 219, 219);">Hi there!</div>
+        <div class="row">
+          <div class="col-5">
+            <img src="images/propic.png" alt="Mary profile picture" style="width: 17vw;">
           </div>
-          <br><br>
-          <div class="white-emph">My dream is to work with creators in computer graphics, bringing to life new and immersive worlds.</div>
+          <div class="col-7">
+            <div class="white-body">
+              My name is Mary Xu, and I'm a developer with a passion for sharing experiences 
+              through my work. I'm currently a 4th year Computer Science major at the Georgia Institute of Technology with concentrations
+              in Media and Intelligence.
+            </div>
+            <br><br>
+            <div class="white-emph">My dream is to work with creators in computer graphics, bringing to life new and immersive worlds.</div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- Skills -->
-    <div class="skills-container">
-      <div class="title" style="color: rgb(12,13,13)">Skills I bring to the table</div>
+    <section id="skills">
+      <div class="skills-container">
+        <div class="title" style="color: rgb(12,13,13)">Skills I bring to the table</div>
 
-      <div class="row">
-        <div class="col-7">
-          <div class="black-subheader">Technical</div>
-          <br><br>
-          <div class="row">
-            <div class="col-3"><img src="images/skills/1-c-sharp.png" style="height: 5vw;"></div>
-            <div class="col-3"><img src="images/skills/2-unity.png" style="height: 5vw;"></div>
-            <div class="col-3"><img src="images/skills/3-python.png" style="height: 5vw;"></div>
-            <div class="col-3"><img src="images/skills/5-java.png" style="height: 5vw;"></div>
+        <div class="row">
+          <div class="col-7">
+            <div class="black-subheader">Technical</div>
+            <br><br>
+            <div class="row">
+              <div class="col-3"><img class="simple-expand" src="images/skills/1-c-sharp.png" style="height: 5vw;" aria="C-sharp"></div>
+              <div class="col-3"><img class="simple-expand" src="images/skills/2-unity.png" style="height: 5vw;"></div>
+              <div class="col-3"><img class="simple-expand" src="images/skills/3-python.png" style="height: 5vw;"></div>
+              <div class="col-3"><img class="simple-expand" src="images/skills/5-java.png" style="height: 5vw;"></div>
+            </div>
+            <br><br>
+            <div class="row">
+              <div class="col-3"><img class="simple-expand" src="images/skills/4-git.png" style="height: 5vw;"></div>
+              <div class="col-3"><img class="simple-expand" src="images/skills/6-react.png" style="height: 5vw;"></div>
+              <div class="col-3"><img class="simple-expand" src="images/skills/7-typescript.png" style="height: 5vw;"></div>
+              <div class="col-3"><img class="simple-expand" src="images/skills/8-javascript.png" style="height: 5vw;"></div>
+            </div>
           </div>
-          <br><br>
-          <div class="row">
-            <div class="col-3"><img src="images/skills/4-git.png" style="height: 5vw;"></div>
-            <div class="col-3"><img src="images/skills/6-react.png" style="height: 5vw;"></div>
-            <div class="col-3"><img src="images/skills/7-typescript.png" style="height: 5vw;"></div>
-            <div class="col-3"><img src="images/skills/8-javascript.png" style="height: 5vw;"></div>
+          <div class="col-1">
+            <center><img src="images/vert_divider.png" style="height: 23vw;"></center>
           </div>
-        </div>
-        <div class="col-1">
-          <center><img src="images/vert_divider.png" style="height: 23vw;"></center>
-        </div>
-        <div class="col-4">
-          <div class="black-subheader" style="text-align: right;">Creative</div>
-          <br><br>
-          <div class="row" style="text-align: right;">
-            <div class="col-6"><img src="images/skills/c1-blender.png" style="height: 5vw;"></div>
-            <div class="col-6"><img src="images/skills/c2-ai.png" style="height: 5vw;"></div>
-          </div>
-          <br><br>
-          <div class="row" style="text-align: right;">
-            <div class="col-6"><img src="images/skills/c3-procreate.png" style="height: 5vw;"></div>
-            <div class="col-6"><img src="images/skills/c4-ps.png" style="height: 5vw;"></div>
+          <div class="col-4">
+            <div class="black-subheader" style="text-align: right;">Creative</div>
+            <br><br>
+            <div class="row" style="text-align: right;">
+              <div class="col-6"><img class="simple-expand" src="images/skills/c1-blender.png" style="height: 5vw;"></div>
+              <div class="col-6"><img class="simple-expand" src="images/skills/c2-ai.png" style="height: 5vw;"></div>
+            </div>
+            <br><br>
+            <div class="row" style="text-align: right;">
+              <div class="col-6"><img class="simple-expand" src="images/skills/c3-procreate.png" style="height: 5vw;"></div>
+              <div class="col-6"><img class="simple-expand" src="images/skills/c4-ps.png" style="height: 5vw;"></div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- Work -->
-    <div class="work-container">
-      <div class="title" style="color: rgb(12,13,13)">What keeps me busy</div>
-      <div class="black-subheader">Game creation</div>
-      <br>
-      <div class="row">
-        <!-- Waterboy adventures -->
-        <div class="col-4">
-          <div id="g1" class="expand">
-            <img src="images/work/waterboy_adventures.png" style="width: 100%" alt="Waterboy Adventures video game">
-            <div class="overlay">
-              <div class="centered" style="transform: translate(-50%, -50%);">
-                <svg width="25%" height="25%" viewBox="0 0 16 16" class="bi bi-arrows-angle-expand" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
-                </svg>
+    <section id="work">
+      <div class="work-container">
+        <div class="title" style="color: rgb(12,13,13)">What keeps me busy</div>
+        <div class="black-subheader">Game creation</div>
+        <br>
+        <div class="row">
+          <!-- Waterboy adventures -->
+          <div class="col-4">
+            <div id="g1" class="expand">
+              <img src="images/work/waterboy_adventures.png" style="width: 100%" alt="Waterboy Adventures video game">
+              <div class="overlay">
+                <div class="centered" style="transform: translate(-50%, -50%);">
+                  <svg width="25%" height="25%" viewBox="0 0 16 16" class="bi bi-arrows-angle-expand" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div id="g1-modal" class="modal">
+              <div class="modal-content">
+                <span id="g1-close" class="close">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                </span>
+                <div class="black-subheader" style="font-family: brandon-grotesque;">Waterboy Adventures</div>
+                <div class="black-sub">Video game</div>
+                <br>
+                <center><iframe width="100%"" height="350vh" src="https://www.youtube.com/embed/ng_oBcgQeZ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                <br>
+                <div class="white-body" style="color: rgb(12,13,13);">
+                  The main character's village is experiencing a severe drought! Help him gain abilities and replenish the water in his village.
+                </div>
+                <br>
+                <div class="white-body" style="color: rgb(12,13,13);">
+                  Waterboy Adventures is a puzzle-based game. For this collaborative effort, I developed AI pursuit agents, weapon logic, character persistence logic, and treasure chest persistence logic. 
+                  I also modeled all four different character bodies in Blender.
+                </div>
+                <br>
+                <div style="display: flex; padding-top: 1rem;">
+                  <button type="button" class="tag" disabled style="margin: 3px;">C#</button>
+                  <button type="button" class="tag" disabled style="margin: 3px;">Unity</button>
+                  <button type="button" class="tag" disabled style="margin: 3px;">Blender</button>
+                </div>
+                <br>
+                <div style="display: flex; justify-content: flex-end;"><button type="button" class="link" onclick="window.open('https://github.com/maryx317/codesamples/tree/main/Waterboy_Adventures','_blank')">Sample code</button></div>
               </div>
             </div>
           </div>
-          <div id="g1-modal" class="modal">
-            <div class="modal-content">
-              <span id="g1-close" class="close">
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-                </svg>
-              </span>
-              <div class="black-subheader" style="font-family: brandon-grotesque;">Waterboy Adventures</div>
-              <div class="black-sub">Video game</div>
-              <br>
-              <center><iframe width="100%"" height="350vh" src="https://www.youtube.com/embed/ng_oBcgQeZ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-              <br>
-              <div class="white-body" style="color: rgb(12,13,13);">
-                The main character's village is experiencing a severe drought! Help him gain abilities and replenish the water in his village.
+
+          <!-- Lumberjack Jack -->
+          <div class="col-4">
+            <div id="g2" class="expand">
+              <img src="images/work/lumberjack_jack.png" style="width: 100%" alt="Lumberjack Jack Game Boy Advanced game">
+              <div class="overlay">
+                <div class="centered" style="transform: translate(-50%, -50%);">
+                  <svg width="25%" height="25%" viewBox="0 0 16 16" class="bi bi-arrows-angle-expand" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
+                  </svg>
+                </div>
               </div>
-              <br>
-              <div class="white-body" style="color: rgb(12,13,13);">
-                Waterboy Adventures is a puzzle-based game. For this collaborative effort, I developed AI pursuit agents, weapon logic, character persistence logic, and treasure chest persistence logic. 
-                I also modeled all four different character bodies in Blender.
+            </div>
+            <div id="g2-modal" class="modal">
+              <div class="modal-content">
+                <span id="g2-close" class="close">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                </span>
+                <div class="black-subheader" style="font-family: brandon-grotesque;">Lumberjack Jack</div>
+                <div class="black-sub">Game Boy Advance game</div>
+                <br>
+                <center><iframe width="100%"" height="350vh" src="https://www.youtube.com/embed/73daIKN_C4Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                <br>
+                <div class="white-body" style="color: rgb(12,13,13);">
+                  Jack has lost his way at work one day! Help him get home by obtaining 4 keys to escape. 
+                </div>
+                <br>
+                <div class="white-body" style="color: rgb(12,13,13);">
+                  Lumberjack Jack is an escape room game. This was a solo project where I programmed, designed, and drew everything. This was also one of the top 10 projects in the Computer Organization and Programming class of 400+ students.
+                </div>
+                <br>
+                <div style="display: flex; padding-top: 1rem;">
+                  <button type="button" class="tag" disabled style="margin: 3px;">C</button>
+                  <button type="button" class="tag" disabled style="margin: 3px;">Adobe Photoshop</button>
+                </div>
               </div>
-              <br>
-              <div style="display: flex; padding-top: 1rem;">
-                <button type="button" class="tag" disabled style="margin: 3px;">C#</button>
-                <button type="button" class="tag" disabled style="margin: 3px;">Unity</button>
-                <button type="button" class="tag" disabled style="margin: 3px;">Blender</button>
+            </div>
+          </div>
+
+          <!-- Escape to Elysium -->
+          <div class="col-4">
+            <div id="g3" class="expand">
+              <img src="images/work/escape_to_elysium.png" style="width: 100%" alt="Escape to Elysium board game">
+              <div class="overlay">
+                <div class="centered" style="transform: translate(-50%, -50%);">
+                  <svg width="25%" height="25%" viewBox="0 0 16 16" class="bi bi-arrows-angle-expand" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
+                  </svg>
+                </div>
               </div>
-              <br>
-              <div style="display: flex; justify-content: flex-end;"><button type="button" class="link" onclick="window.open('https://github.com/maryx317/codesamples/tree/main/Waterboy_Adventures','_blank')">Sample code</button></div>
+            </div>
+            <div id="g3-modal" class="modal">
+              <div class="modal-content">
+                <span id="g3-close" class="close">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                </span>
+                <div class="black-subheader" style="font-family: brandon-grotesque;">Escape to Elysium</div>
+                <div class="black-sub">Board game</div>
+                <br>
+                <center><img width="100%"" height="350vh" src="images/work/escape_to_elysium.png"></center>
+                <br>
+                <div class="white-body" style="color: rgb(12,13,13);">
+                  The ground is gone. Monsters have destroyed Grealia. A mystical portal is humanity's last hope to escape from these monsters' wrath. 
+                  Explore islands, collect resources, upgrade your ship, and battle mosnters to survive and be the one to Escape to Elysium. 
+                </div>
+                <br>
+                <div class="white-body" style="color: rgb(12,13,13);">
+                  This was a board game created by Golden Swarm Games, a board game studio I started in 2018. 
+                  Besides leading the studio, I was the leader of design team for this game, easing gameplay for potential players and creating many layouts for the game files. 
+                </div>
+                <br>
+                <div style="display: flex; padding-top: 1rem;">
+                  <button type="button" class="tag" disabled style="margin: 3px;">Adobe Illustrator</button>
+                  <button type="button" class="tag" disabled style="margin: 3px;">Adobe Photoshop</button>
+                </div>
+                <br>
+                <div style="display: flex; justify-content: flex-end;"><button type="button" class="link" onclick="window.open('https://drive.google.com/drive/u/0/folders/1VojKylCh_mkffWdnea9JLiF2il8OAQbn','_blank')">Take a look</button></div>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- Lumberjack Jack -->
-        <div class="col-4">
-          <div id="g2" class="expand">
-            <img src="images/work/lumberjack_jack.png" style="width: 100%" alt="Lumberjack Jack Game Boy Advanced game">
-            <div class="overlay">
-              <div class="centered" style="transform: translate(-50%, -50%);">
-                <svg width="25%" height="25%" viewBox="0 0 16 16" class="bi bi-arrows-angle-expand" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
-                </svg>
+        <br><br><br>
+        <div class="black-subheader">Industry experience</div>
+        <br>
+        <div class="row">
+          <!-- Office Online -->
+          <div class="col-4">
+            <div id="i1" class="expand">
+              <img src="images/work/officeonline.png" style="width: 100%" alt="Microsoft Office Online Infrastructure">
+              <div class="overlay">
+                <div class="centered" style="transform: translate(-50%, -50%);">
+                  <svg width="25%" height="25%" viewBox="0 0 16 16" class="bi bi-arrows-angle-expand" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div id="i1-modal" class="modal">
+              <div class="modal-content">
+                <span id="i1-close" class="close">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                </span>
+                <div class="black-subheader" style="font-family: brandon-grotesque;">Microsoft Office Online Infrastructure</div>
+                <div class="black-sub">Software engineer intern</div>
+                <br>
+                <center><img width="100%"" height="350vh" src="images/work/officeonline.png"></center>
+                <br>
+                <div class="white-body" style="color: rgb(12,13,13);">
+                  Created an internal tool that automates the transfer of datacenter configuration data from configuration files to a source of truth in a database.
+                </div>
+                <br>
+                <div class="white-body" style="color: rgb(12,13,13);">
+                  Saved future developers 50% of the work for this transfer process. Created a more reliable and central location for all of Office Online datacenter configurations.
+                </div>
+                <br>
+                <div style="display: flex; padding-top: 1rem;">
+                  <button type="button" class="tag" disabled style="margin: 3px;">C#</button>
+                  <button type="button" class="tag" disabled style="margin: 3px;">Git</button>
+                </div>
               </div>
             </div>
           </div>
-          <div id="g2-modal" class="modal">
-            <div class="modal-content">
-              <span id="g2-close" class="close">
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-                </svg>
-              </span>
-              <div class="black-subheader" style="font-family: brandon-grotesque;">Lumberjack Jack</div>
-              <div class="black-sub">Game Boy Advance game</div>
-              <br>
-              <center><iframe width="100%"" height="350vh" src="https://www.youtube.com/embed/73daIKN_C4Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-              <br>
-              <div class="white-body" style="color: rgb(12,13,13);">
-                Jack has lost his way at work one day! Help him get home by obtaining 4 keys to escape. 
+
+          <!-- SharePoint -->
+          <div class="col-4">
+            <div id="i2" class="expand">
+              <img src="images/work/sharepoint.png" style="width: 100%" alt="Microsoft SharePoint Tenant Admin team">
+              <div class="overlay">
+                <div class="centered" style="transform: translate(-50%, -50%);">
+                  <svg width="25%" height="25%" viewBox="0 0 16 16" class="bi bi-arrows-angle-expand" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
+                  </svg>
+                </div>
               </div>
-              <br>
-              <div class="white-body" style="color: rgb(12,13,13);">
-                Lumberjack Jack is an escape room game. This was a solo project where I programmed, designed, and drew everything. This was also one of the top 10 projects in the Computer Organization and Programming class of 400+ students.
+            </div>
+            <div id="i2-modal" class="modal">
+              <div class="modal-content">
+                <span id="i2-close" class="close">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                </span>
+                <div class="black-subheader" style="font-family: brandon-grotesque;">Microsoft SharePoint Tenant Admin</div>
+                <div class="black-sub">Explore intern</div>
+                <br>
+                <center><img width="100%"" height="350vh" src="images/work/sharepoint.png"></center>
+                <br>
+                <div class="white-body" style="color: rgb(12,13,13);">
+                  Our three person intern team built an interactive and customizable dashboard where different blocks of information can be moved around, giving the user more power to see what is important to them first. 
+                  This created a stepping stone for other teams in Microsoft 365 to implement similar dashboards.
+                </div>
+                <br>
+                <div class="white-body" style="color: rgb(12,13,13);">
+                  I worked on making sure the state of the dashboard stays the same after changes whether the changes are from moving the blocks around or from adding and deleting blocks from a side panel.
+                </div>
+                <br>
+                <div style="display: flex; padding-top: 1rem;">
+                  <button type="button" class="tag" disabled style="margin: 3px;">React</button>
+                  <button type="button" class="tag" disabled style="margin: 3px;">TypeScript</button>
+                  <button type="button" class="tag" disabled style="margin: 3px;">Git</button>
+                </div>
               </div>
-              <br>
-              <div style="display: flex; padding-top: 1rem;">
-                <button type="button" class="tag" disabled style="margin: 3px;">C</button>
-                <button type="button" class="tag" disabled style="margin: 3px;">Adobe Photoshop</button>
+            </div>
+          </div>
+
+          <!-- CFA -->
+          <div class="col-4">
+            <div id="i3" class="expand">
+              <img src="images/work/cfa.png" style="width: 100%" alt="Chick-fil-a Innovation Center">
+              <div class="overlay">
+                <div class="centered" style="transform: translate(-50%, -50%);">
+                  <svg width="25%" height="25%" viewBox="0 0 16 16" class="bi bi-arrows-angle-expand" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div id="i3-modal" class="modal">
+              <div class="modal-content">
+                <span id="i3-close" class="close">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                </span>
+                <div class="black-subheader" style="font-family: brandon-grotesque;">Chick-fil-a Innovation Center</div>
+                <div class="black-sub">Software innovation intern</div>
+                <br>
+                <center><img width="100%"" height="350vh" src="images/work/cfa.png"></center>
+                <br>
+                <div class="white-body" style="color: rgb(12,13,13);">
+                  Evaluated accuracy, sensitivity, and specificity of models learning food safety hazards. My script outputs all the incorrect predictions as well as accuracy, sensitivity, and specificity over time.
+                </div>
+                <br>
+                <div style="display: flex; padding-top: 1rem;">
+                  <button type="button" class="tag" disabled style="margin: 3px;">Python</button>
+                  <button type="button" class="tag" disabled style="margin: 3px;">AWS</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <!-- PACE -->
+          <div class="col-4">
+            <div id="i4" class="expand">
+              <img src="images/work/gt.png" style="width: 100%" alt="PACE at Georgia Institute of Technology">
+              <div class="overlay">
+                <div class="centered" style="transform: translate(-50%, -50%);">
+                  <svg width="25%" height="25%" viewBox="0 0 16 16" class="bi bi-arrows-angle-expand" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div id="i4-modal" class="modal">
+              <div class="modal-content">
+                <span id="i4-close" class="close">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                </span>
+                <div class="black-subheader" style="font-family: brandon-grotesque;">PACE at Georgia Institute of Technology</div>
+                <div class="black-sub">Software testing student assistant</div>
+                <br>
+                <center><img width="100%"" height="350vh" src="images/work/gt.png"></center>
+                <br>
+                <div class="white-body" style="color: rgb(12,13,13);">
+                  Built and tested software that will be used by Georgia Institute of Technology employees and students. Software will either be built from source or by using the software's binaries.
+                </div>
+                <br>
+                <div style="display: flex; padding-top: 1rem;">
+                  <button type="button" class="tag" disabled style="margin: 3px;">Bash</button>
+                  <button type="button" class="tag" disabled style="margin: 3px;">Mercurial</button>
+                  <button type="button" class="tag" disabled style="margin: 3px;">Terminal</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- GoProcure -->
+          <div class="col-4">
+            <div id="i5" class="expand">
+              <img src="images/work/goprocure.png" style="width: 100%" alt="GoProcure">
+              <div class="overlay">
+                <div class="centered" style="transform: translate(-50%, -50%);">
+                  <svg width="25%" height="25%" viewBox="0 0 16 16" class="bi bi-arrows-angle-expand" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div id="i5-modal" class="modal">
+              <div class="modal-content">
+                <span id="i5-close" class="close">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                </span>
+                <div class="black-subheader" style="font-family: brandon-grotesque;">GoProcure</div>
+                <div class="black-sub">Software and design intern</div>
+                <br>
+                <center><img width="100%"" height="350vh" src="images/work/goprocure.png"></center>
+                <br>
+                <div class="white-body" style="color: rgb(12,13,13);">
+                  Automated sales data updating process. Wrote a macro script in Outlook Visual Basic and a script that will parse the data and save it into a MySQL database. 
+                </div>
+                <br>
+                <div class="white-body" style="color: rgb(12,13,13);">
+                  Designed and improved the marketing website to bring in more clients.
+                </div>
+                <br>
+                <div style="display: flex; padding-top: 1rem;">
+                  <button type="button" class="tag" disabled style="margin: 3px;">Python</button>
+                  <button type="button" class="tag" disabled style="margin: 3px;">MySQL</button>
+                  <button type="button" class="tag" disabled style="margin: 3px;">Outlook macros</button>
+                  <button type="button" class="tag" disabled style="margin: 3px;">Wix</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Escape to Elysium -->
-        <div class="col-4">
-          <div id="g3" class="expand">
-            <img src="images/work/escape_to_elysium.png" style="width: 100%" alt="Escape to Elysium board game">
-            <div class="overlay">
-              <div class="centered" style="transform: translate(-50%, -50%);">
-                <svg width="25%" height="25%" viewBox="0 0 16 16" class="bi bi-arrows-angle-expand" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
-                </svg>
+        <br><br><br>
+        <div class="black-subheader">Hackathon hacks</div>
+        <br>
+        <div class="row">
+          <!-- EarthCents -->
+          <div class="col-4">
+            <div id="h1" class="expand">
+              <img src="images/work/earthcents.png" style="width: 100%" alt="EarthCents">
+              <div class="overlay">
+                <div class="centered" style="transform: translate(-50%, -50%);">
+                  <svg width="25%" height="25%" viewBox="0 0 16 16" class="bi bi-arrows-angle-expand" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div id="h1-modal" class="modal">
+              <div class="modal-content">
+                <span id="h1-close" class="close">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                </span>
+                <div class="black-subheader" style="font-family: brandon-grotesque;">EarthCents</div>
+                <div class="black-sub">PennApps</div>
+                <br>
+                <center><img width="100%"" height="350vh" src="images/work/earthcents.png"></center>
+                <br>
+                <div class="white-body" style="color: rgb(12,13,13);">
+                  System that uses computer vision and a pre-created learning model to recognize bottles and cans. This will be used for to exchange a bottle for a coin to incentivize recycling. 
+                </div>
+                <br>
+                <div class="white-body" style="color: rgb(12,13,13);">
+                  I worked on the front-end as well as communication between the front-end and back-end. I also designed and made the cardboard structure for the Arduino board and servos.
+                </div>
+                <br>
+                <div style="display: flex; padding-top: 1rem;">
+                  <button type="button" class="tag" disabled style="margin: 3px;">HTML/CSS</button>
+                  <button type="button" class="tag" disabled style="margin: 3px;">JavaScript</button>
+                  <button type="button" class="tag" disabled style="margin: 3px;">Flask</button>
+                  <button type="button" class="tag" disabled style="margin: 3px;">Adobe Illustrator</button>
+                </div>
+                <br>
+                <div style="display: flex; justify-content: flex-end;"><button type="button" class="link" onclick="window.open('https://devpost.com/software/bottlecycler-pennapps-2018','_blank')">Devpost</button></div>
               </div>
             </div>
           </div>
-          <div id="g3-modal" class="modal">
-            <div class="modal-content">
-              <span id="g3-close" class="close">
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-                </svg>
-              </span>
-              <div class="black-subheader" style="font-family: brandon-grotesque;">Escape to Elysium</div>
-              <div class="black-sub">Board game</div>
-              <br>
-              <center><img width="100%"" height="350vh" src="images/work/escape_to_elysium.png"></center>
-              <br>
-              <div class="white-body" style="color: rgb(12,13,13);">
-                The ground is gone. Monsters have destroyed Grealia. A mystical portal is humanity's last hope to escape from these monsters' wrath. 
-                Explore islands, collect resources, upgrade your ship, and battle mosnters to survive and be the one to Escape to Elysium. 
+
+          <!-- SharePoint -->
+          <div class="col-4">
+            <div id="h2" class="expand">
+              <img src="images/work/depressionhotline.png" style="width: 100%" alt="Depression Hotline">
+              <div class="overlay">
+                <div class="centered" style="transform: translate(-50%, -50%);">
+                  <svg width="25%" height="25%" viewBox="0 0 16 16" class="bi bi-arrows-angle-expand" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
+                  </svg>
+                </div>
               </div>
-              <br>
-              <div class="white-body" style="color: rgb(12,13,13);">
-                This was a board game created by Golden Swarm Games, a board game studio I started in 2018. 
-                Besides leading the studio, I was the leader of design team for this game, easing gameplay for potential players and creating many layouts for the game files. 
+            </div>
+            <div id="h2-modal" class="modal">
+              <div class="modal-content">
+                <span id="h2-close" class="close">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                </span>
+                <div class="black-subheader" style="font-family: brandon-grotesque;">Depression Hotline</div>
+                <div class="black-sub">SwampHacks</div>
+                <br>
+                <center><img width="100%"" height="350vh" src="images/work/depressionhotline.png"></center>
+                <br>
+                <div class="white-body" style="color: rgb(12,13,13);">
+                  A webapp to guide the friends and family of those who suffer from depression. This webapp analyzes text for the stages of depression and based on that will return a suggestion as to what the user should do. 
+                </div>
+                <br>
+                <div class="white-body" style="color: rgb(12,13,13);">
+                  I worked on the front-end of the webapp and research into advice to give the user. 
+                </div>
+                <br>
+                <div style="display: flex; padding-top: 1rem;">
+                  <button type="button" class="tag" disabled style="margin: 3px;">HTML/CSS</button>
+                  <button type="button" class="tag" disabled style="margin: 3px;">JavaScript</button>
+                </div>
+                <br>
+                <div style="display: flex; justify-content: flex-end;"><button type="button" class="link" onclick="window.open('https://devpost.com/software/depression-hotline','_blank')">Devpost</button></div>
               </div>
-              <br>
-              <div style="display: flex; padding-top: 1rem;">
-                <button type="button" class="tag" disabled style="margin: 3px;">Adobe Illustrator</button>
-                <button type="button" class="tag" disabled style="margin: 3px;">Adobe Photoshop</button>
-              </div>
-              <br>
-              <div style="display: flex; justify-content: flex-end;"><button type="button" class="link" onclick="window.open('https://drive.google.com/drive/u/0/folders/1VojKylCh_mkffWdnea9JLiF2il8OAQbn','_blank')">Take a look</button></div>
             </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <br><br><br>
-      <div class="black-subheader">Industry experience</div>
-      <br>
-      <div class="row">
-        <!-- Office Online -->
-        <div class="col-4">
-          <div id="i1" class="expand">
-            <img src="images/work/officeonline.png" style="width: 100%" alt="Microsoft Office Online Infrastructure">
-            <div class="overlay">
-              <div class="centered">
-                <svg width="25%" height="25%" viewBox="0 0 16 16" class="bi bi-arrows-angle-expand" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
-                </svg>
-              </div>
-            </div>
-          </div>
-          <div id="i1-modal" class="modal">
-            <div class="modal-content">
-              <span id="i1-close" class="close">
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-                </svg>
-              </span>
-              <div class="black-subheader" style="font-family: brandon-grotesque;">Microsoft Office Online Infrastructure</div>
-              <div class="black-sub">Software engineer intern</div>
-              <br>
-              <center><img width="100%"" height="350vh" src="images/work/officeonline.png"></center>
-              <br>
-              <div class="white-body" style="color: rgb(12,13,13);">
-                Created an internal tool that automates the transfer of datacenter configuration data from configuration files to a source of truth in a database.
-              </div>
-              <br>
-              <div class="white-body" style="color: rgb(12,13,13);">
-                Saved future developers 50% of the work for this transfer process. Created a more reliable and central location for all of Office Online datacenter configurations.
-              </div>
-              <br>
-              <div style="display: flex; padding-top: 1rem;">
-                <button type="button" class="tag" disabled style="margin: 3px;">C#</button>
-                <button type="button" class="tag" disabled style="margin: 3px;">Git</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- SharePoint -->
-        <div class="col-4">
-          <div id="i2" class="expand">
-            <img src="images/work/sharepoint.png" style="width: 100%" alt="Microsoft SharePoint Tenant Admin team">
-            <div class="overlay">
-              <div class="centered">
-                <svg width="25%" height="25%" viewBox="0 0 16 16" class="bi bi-arrows-angle-expand" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
-                </svg>
-              </div>
-            </div>
-          </div>
-          <div id="i2-modal" class="modal">
-            <div class="modal-content">
-              <span id="i2-close" class="close">
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-                </svg>
-              </span>
-              <div class="black-subheader" style="font-family: brandon-grotesque;">Microsoft SharePoint Tenant Admin</div>
-              <div class="black-sub">Explore intern</div>
-              <br>
-              <center><img width="100%"" height="350vh" src="images/work/sharepoint.png"></center>
-              <br>
-              <div class="white-body" style="color: rgb(12,13,13);">
-                Our three person intern team built an interactive and customizable dashboard where different blocks of information can be moved around, giving the user more power to see what is important to them first. 
-                This created a stepping stone for other teams in Microsoft 365 to implement similar dashboards.
-              </div>
-              <br>
-              <div class="white-body" style="color: rgb(12,13,13);">
-                I worked on making sure the state of the dashboard stays the same after changes whether the changes are from moving the blocks around or from adding and deleting blocks from a side panel.
-              </div>
-              <br>
-              <div style="display: flex; padding-top: 1rem;">
-                <button type="button" class="tag" disabled style="margin: 3px;">React</button>
-                <button type="button" class="tag" disabled style="margin: 3px;">TypeScript</button>
-                <button type="button" class="tag" disabled style="margin: 3px;">Git</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- CFA -->
-        <div class="col-4">
-          <div id="i3" class="expand">
-            <img src="images/work/cfa.png" style="width: 100%" alt="Chick-fil-a Innovation Center">
-            <div class="overlay">
-              <div class="centered">
-                <svg width="25%" height="25%" viewBox="0 0 16 16" class="bi bi-arrows-angle-expand" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
-                </svg>
-              </div>
-            </div>
-          </div>
-          <div id="i3-modal" class="modal">
-            <div class="modal-content">
-              <span id="i3-close" class="close">
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-                </svg>
-              </span>
-              <div class="black-subheader" style="font-family: brandon-grotesque;">Chick-fil-a Innovation Center</div>
-              <div class="black-sub">Software innovation intern</div>
-              <br>
-              <center><img width="100%"" height="350vh" src="images/work/cfa.png"></center>
-              <br>
-              <div class="white-body" style="color: rgb(12,13,13);">
-                Evaluated accuracy, sensitivity, and specificity of models learning food safety hazards. My script outputs all the incorrect predictions as well as accuracy, sensitivity, and specificity over time.
-              </div>
-              <br>
-              <div style="display: flex; padding-top: 1rem;">
-                <button type="button" class="tag" disabled style="margin: 3px;">Python</button>
-                <button type="button" class="tag" disabled style="margin: 3px;">AWS</button>
-              </div>
-            </div>
-          </div>
-        </div>
+    <!-- Contact -->
+    <section id="contact">
+      <div>
+        <div class="about-black-container">
+          <div class="title" style="color: rgb(219, 219, 219)">Keep in touch!</div>  
       </div>
-      <br>
-      <div class="row">
-        <!-- PACE -->
-        <div class="col-4">
-          <div id="i4" class="expand">
-            <img src="images/work/gt.png" style="width: 100%" alt="PACE at Georgia Institute of Technology">
-            <div class="overlay">
-              <div class="centered">
-                <svg width="25%" height="25%" viewBox="0 0 16 16" class="bi bi-arrows-angle-expand" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
-                </svg>
-              </div>
-            </div>
-          </div>
-          <div id="i4-modal" class="modal">
-            <div class="modal-content">
-              <span id="i4-close" class="close">
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-                </svg>
-              </span>
-              <div class="black-subheader" style="font-family: brandon-grotesque;">PACE at Georgia Institute of Technology</div>
-              <div class="black-sub">Software testing student assistant</div>
-              <br>
-              <center><img width="100%"" height="350vh" src="images/work/gt.png"></center>
-              <br>
-              <div class="white-body" style="color: rgb(12,13,13);">
-                Built and tested software that will be used by Georgia Institute of Technology employees and students. Software will either be built from source or by using the software's binaries.
-              </div>
-              <br>
-              <div style="display: flex; padding-top: 1rem;">
-                <button type="button" class="tag" disabled style="margin: 3px;">Bash</button>
-                <button type="button" class="tag" disabled style="margin: 3px;">Mercurial</button>
-                <button type="button" class="tag" disabled style="margin: 3px;">Terminal</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- GoProcure -->
-        <div class="col-4">
-          <div id="i5" class="expand">
-            <img src="images/work/goprocure.png" style="width: 100%" alt="GoProcure">
-            <div class="overlay">
-              <div class="centered">
-                <svg width="25%" height="25%" viewBox="0 0 16 16" class="bi bi-arrows-angle-expand" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
-                </svg>
-              </div>
-            </div>
-          </div>
-          <div id="i5-modal" class="modal">
-            <div class="modal-content">
-              <span id="i5-close" class="close">
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-                </svg>
-              </span>
-              <div class="black-subheader" style="font-family: brandon-grotesque;">GoProcure</div>
-              <div class="black-sub">Software and design intern</div>
-              <br>
-              <center><img width="100%"" height="350vh" src="images/work/goprocure.png"></center>
-              <br>
-              <div class="white-body" style="color: rgb(12,13,13);">
-                Automated sales data updating process. Wrote a macro script in Outlook Visual Basic and a script that will parse the data and save it into a MySQL database. 
-              </div>
-              <br>
-              <div class="white-body" style="color: rgb(12,13,13);">
-                Designed and improved the marketing website to bring in more clients.
-              </div>
-              <br>
-              <div style="display: flex; padding-top: 1rem;">
-                <button type="button" class="tag" disabled style="margin: 3px;">Python</button>
-                <button type="button" class="tag" disabled style="margin: 3px;">MySQL</button>
-                <button type="button" class="tag" disabled style="margin: 3px;">Outlook macros</button>
-                <button type="button" class="tag" disabled style="margin: 3px;">Wix</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <br><br><br>
-      <div class="black-subheader">Hackathon hacks</div>
-      <br>
-      <div class="row">
-        <!-- EarthCents -->
-        <div class="col-4">
-          <div id="h1" class="expand">
-            <img src="images/work/earthcents.png" style="width: 100%" alt="EarthCents">
-            <div class="overlay">
-              <div class="centered">
-                <svg width="25%" height="25%" viewBox="0 0 16 16" class="bi bi-arrows-angle-expand" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
-                </svg>
-              </div>
-            </div>
-          </div>
-          <div id="h1-modal" class="modal">
-            <div class="modal-content">
-              <span id="h1-close" class="close">
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-                </svg>
-              </span>
-              <div class="black-subheader" style="font-family: brandon-grotesque;">EarthCents</div>
-              <div class="black-sub">PennApps</div>
-              <br>
-              <center><img width="100%"" height="350vh" src="images/work/earthcents.png"></center>
-              <br>
-              <div class="white-body" style="color: rgb(12,13,13);">
-                System that uses computer vision and a pre-created learning model to recognize bottles and cans. This will be used for to exchange a bottle for a coin to incentivize recycling. 
-              </div>
-              <br>
-              <div class="white-body" style="color: rgb(12,13,13);">
-                I worked on the front-end as well as communication between the front-end and back-end. I also designed and made the cardboard structure for the Arduino board and servos.
-              </div>
-              <br>
-              <div style="display: flex; padding-top: 1rem;">
-                <button type="button" class="tag" disabled style="margin: 3px;">HTML/CSS</button>
-                <button type="button" class="tag" disabled style="margin: 3px;">JavaScript</button>
-                <button type="button" class="tag" disabled style="margin: 3px;">Flask</button>
-                <button type="button" class="tag" disabled style="margin: 3px;">Adobe Illustrator</button>
-              </div>
-              <br>
-              <div style="display: flex; justify-content: flex-end;"><button type="button" class="link" onclick="window.open('https://devpost.com/software/bottlecycler-pennapps-2018','_blank')">Devpost</button></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- SharePoint -->
-        <div class="col-4">
-          <div id="h2" class="expand">
-            <img src="images/work/depressionhotline.png" style="width: 100%" alt="Depression Hotline">
-            <div class="overlay">
-              <div class="centered">
-                <svg width="25%" height="25%" viewBox="0 0 16 16" class="bi bi-arrows-angle-expand" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
-                </svg>
-              </div>
-            </div>
-          </div>
-          <div id="h2-modal" class="modal">
-            <div class="modal-content">
-              <span id="h2-close" class="close">
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-                </svg>
-              </span>
-              <div class="black-subheader" style="font-family: brandon-grotesque;">Depression Hotline</div>
-              <div class="black-sub">SwampHacks</div>
-              <br>
-              <center><img width="100%"" height="350vh" src="images/work/depressionhotline.png"></center>
-              <br>
-              <div class="white-body" style="color: rgb(12,13,13);">
-                A webapp to guide the friends and family of those who suffer from depression. This webapp analyzes text for the stages of depression and based on that will return a suggestion as to what the user should do. 
-              </div>
-              <br>
-              <div class="white-body" style="color: rgb(12,13,13);">
-                I worked on the front-end of the webapp and research into advice to give the user. 
-              </div>
-              <br>
-              <div style="display: flex; padding-top: 1rem;">
-                <button type="button" class="tag" disabled style="margin: 3px;">HTML/CSS</button>
-                <button type="button" class="tag" disabled style="margin: 3px;">JavaScript</button>
-              </div>
-              <br>
-              <div style="display: flex; justify-content: flex-end;"><button type="button" class="link" onclick="window.open('https://devpost.com/software/depression-hotline','_blank')">Devpost</button></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    </section>
 
     <script src="js/script.js"></script>
   </body>
