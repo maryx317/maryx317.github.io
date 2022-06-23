@@ -127,6 +127,34 @@ i6_close.onclick = function() {
   body.style.overflow = "auto";
 }
 
+// i7: TA
+var i7 = document.getElementById("i7");
+var i7_modal = document.getElementById("i7-modal");
+var i7_close = document.getElementById("i7-close");
+i7.onclick = function() {
+  i7_modal.style.display = "block";
+  body.style.overflow = "hidden";
+  body.style.height = "100%";
+}
+i7_close.onclick = function() {
+  i7_modal.style.display = "none";
+  body.style.overflow = "auto";
+}
+
+// i8: Research
+var i8 = document.getElementById("i8");
+var i8_modal = document.getElementById("i8-modal");
+var i8_close = document.getElementById("i8-close");
+i8.onclick = function() {
+  i8_modal.style.display = "block";
+  body.style.overflow = "hidden";
+  body.style.height = "100%";
+}
+i8_close.onclick = function() {
+  i8_modal.style.display = "none";
+  body.style.overflow = "auto";
+}
+
 // h1: Goprocure
 var h1 = document.getElementById("h1");
 var h1_modal = document.getElementById("h1-modal");
