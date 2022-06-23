@@ -57,7 +57,7 @@ i1_close.onclick = function() {
   body.style.overflow = "auto";
 }
 
-// i2: Sharepoint
+// i2: WAC
 var i2 = document.getElementById("i2");
 var i2_modal = document.getElementById("i2-modal");
 var i2_close = document.getElementById("i2-close");
@@ -71,7 +71,7 @@ i2_close.onclick = function() {
   body.style.overflow = "auto";
 }
 
-// i3: CFA
+// i3: SharePoint
 var i3 = document.getElementById("i3");
 var i3_modal = document.getElementById("i3-modal");
 var i3_close = document.getElementById("i3-close");
@@ -85,7 +85,7 @@ i3_close.onclick = function() {
   body.style.overflow = "auto";
 }
 
-// i4: PACE
+// i4: CFA
 var i4 = document.getElementById("i4");
 var i4_modal = document.getElementById("i4-modal");
 var i4_close = document.getElementById("i4-close");
@@ -99,7 +99,7 @@ i4_close.onclick = function() {
   body.style.overflow = "auto";
 }
 
-// i5: Goprocure
+// i5: PACE
 var i5 = document.getElementById("i5");
 var i5_modal = document.getElementById("i5-modal");
 var i5_close = document.getElementById("i5-close");
@@ -110,6 +110,20 @@ i5.onclick = function() {
 }
 i5_close.onclick = function() {
   i5_modal.style.display = "none";
+  body.style.overflow = "auto";
+}
+
+// i6: GoProcure
+var i6 = document.getElementById("i6");
+var i6_modal = document.getElementById("i6-modal");
+var i6_close = document.getElementById("i6-close");
+i6.onclick = function() {
+  i6_modal.style.display = "block";
+  body.style.overflow = "hidden";
+  body.style.height = "100%";
+}
+i6_close.onclick = function() {
+  i6_modal.style.display = "none";
   body.style.overflow = "auto";
 }
 
