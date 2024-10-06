@@ -44,18 +44,18 @@ g3_close.onclick = function() {
 }
 
 // i1: WAC
-var i1 = document.getElementById("i1");
-var i1_modal = document.getElementById("i1-modal");
-var i1_close = document.getElementById("i1-close");
-i1.onclick = function() {
-  i1_modal.style.display = "block";
-  body.style.overflow = "hidden";
-  body.style.height = "100%";
-}
-i1_close.onclick = function() {
-  i1_modal.style.display = "none";
-  body.style.overflow = "auto";
-}
+// var i1 = document.getElementById("i1");
+// var i1_modal = document.getElementById("i1-modal");
+// var i1_close = document.getElementById("i1-close");
+// i1.onclick = function() {
+//   i1_modal.style.display = "block";
+//   body.style.overflow = "hidden";
+//   body.style.height = "100%";
+// }
+// i1_close.onclick = function() {
+//   i1_modal.style.display = "none";
+//   body.style.overflow = "auto";
+// }
 
 // i2: WAC
 var i2 = document.getElementById("i2");
@@ -100,18 +100,18 @@ i4_close.onclick = function() {
 }
 
 // i5: PACE
-var i5 = document.getElementById("i5");
-var i5_modal = document.getElementById("i5-modal");
-var i5_close = document.getElementById("i5-close");
-i5.onclick = function() {
-  i5_modal.style.display = "block";
-  body.style.overflow = "hidden";
-  body.style.height = "100%";
-}
-i5_close.onclick = function() {
-  i5_modal.style.display = "none";
-  body.style.overflow = "auto";
-}
+// var i5 = document.getElementById("i5");
+// var i5_modal = document.getElementById("i5-modal");
+// var i5_close = document.getElementById("i5-close");
+// i5.onclick = function() {
+//   i5_modal.style.display = "block";
+//   body.style.overflow = "hidden";
+//   body.style.height = "100%";
+// }
+// i5_close.onclick = function() {
+//   i5_modal.style.display = "none";
+//   body.style.overflow = "auto";
+// }
 
 // i6: GoProcure
 var i6 = document.getElementById("i6");
@@ -142,16 +142,30 @@ i7_close.onclick = function() {
 }
 
 // i8: Research
-var i8 = document.getElementById("i8");
-var i8_modal = document.getElementById("i8-modal");
-var i8_close = document.getElementById("i8-close");
-i8.onclick = function() {
-  i8_modal.style.display = "block";
+// var i8 = document.getElementById("i8");
+// var i8_modal = document.getElementById("i8-modal");
+// var i8_close = document.getElementById("i8-close");
+// i8.onclick = function() {
+//   i8_modal.style.display = "block";
+//   body.style.overflow = "hidden";
+//   body.style.height = "100%";
+// }
+// i8_close.onclick = function() {
+//   i8_modal.style.display = "none";
+//   body.style.overflow = "auto";
+// }
+
+// i9: Meta
+var i9 = document.getElementById("i9");
+var i9_modal = document.getElementById("i9-modal");
+var i9_close = document.getElementById("i9-close");
+i9.onclick = function() {
+  i9_modal.style.display = "block";
   body.style.overflow = "hidden";
   body.style.height = "100%";
 }
-i8_close.onclick = function() {
-  i8_modal.style.display = "none";
+i9_close.onclick = function() {
+  i9_modal.style.display = "none";
   body.style.overflow = "auto";
 }
 
