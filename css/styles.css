@@ -58,8 +58,8 @@
 
 .skills-container {
   margin: 0;
-  padding-left: 15vw;
-  padding-right: 15vw;
+  padding-left: 25vw;
+  padding-right: 25vw;
   padding-bottom: 20vh;
   padding-top: 5vh;
   background-color: rgb(230, 230, 230);
@@ -67,8 +67,8 @@
 
 .work-container {
   margin: 0;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 25vw;
+  padding-right: 25vw;
   padding-bottom: 20vh;
   padding-top: 5vh;
 }
@@ -77,6 +77,10 @@
   position: relative;
   width: 100%;
   transition: transform .2s;
+}
+
+.img {
+  max-width: 300px;
 }
 
 .simple-expand {
@@ -127,6 +131,7 @@
   top: 0;
   width: 100vw; /* Full width */
   height: 100vh;
+  max-width: inherit;
   overflow: auto;
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
@@ -141,7 +146,7 @@
   padding-left: 3rem;
   padding-right: 3rem;
   border: 1px solid #888;
-  width: 50vw;
+  width: 30vw;
 }
 
 .close {
@@ -215,14 +220,15 @@
 } */
 
 .link {
-  background-color: rgb(31, 31, 31);
+  background-color: rgb(80, 80, 80);
   border: none;
-  color: rgb(230, 230, 230);
+  color: rgb(240, 240, 240);
   border-radius: 10px;
   font-family: brandon-grotesque-light;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 0.5rem;
   width: fit-content;
+  height: fit-content;
   transition: transform .2s;
 }
 
@@ -244,6 +250,11 @@
   padding: 0.5rem;
   width: fit-content;
   transition: transform .2s;
+}
+
+.header-with-link-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 body {
