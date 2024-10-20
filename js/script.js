@@ -43,6 +43,20 @@ g3_close.onclick = function() {
   body.style.overflow = "auto";
 }
 
+// g4: Escape to Elysium
+var g4 = document.getElementById("g4");
+var g4_modal = document.getElementById("g4-modal");
+var g4_close = document.getElementById("g4-close");
+g4.onclick = function() {
+  g4_modal.style.display = "block";
+  body.style.overflow = "hidden";
+  body.style.height = "100%";
+}
+g4_close.onclick = function() {
+  g4_modal.style.display = "none";
+  body.style.overflow = "auto";
+}
+
 // i1: WAC
 // var i1 = document.getElementById("i1");
 // var i1_modal = document.getElementById("i1-modal");
