@@ -346,6 +346,29 @@
   justify-content: space-between;
 }
 
+.file-link {
+  background-color: rgb(80, 80, 80);
+  border: none;
+  color: rgb(240, 240, 240);
+  border-radius: 10px;
+  font-family: brandon-grotesque-light;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  width: fit-content;
+  height: fit-content;
+  transition: transform .2s;
+}
+
+.file-link:hover {
+  transform: scale(1.06);
+}
+
+.file-links-container {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+}
+
 body {
   background-color: rgb(219, 219, 219);
   overflow: auto;
